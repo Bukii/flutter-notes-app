@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
             children: <Widget>[
               Expanded(
                 child: ListView.separated(
-                  itemCount: 2,
+                  itemCount: 3,
                   separatorBuilder: (context, index) => SizedBox(height: 15),
                   itemBuilder: (context, index) => Container(
                     padding: EdgeInsets.all(20),
